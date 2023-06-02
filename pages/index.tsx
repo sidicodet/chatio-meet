@@ -130,7 +130,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Mux Meet</title>
+        <title>Chatio Meet</title>
         <meta name="description" content="Real-time meetings powered by Mux" />
         <link rel="icon" href="/favicon.png" />
       </Head>
@@ -158,7 +158,7 @@ const Home = () => {
                     <FormHelperText
                       color={!isNameInputInvalid ? "white" : "#E22C3E"}
                     >
-                      This cannot be empty.
+                      This cannot be empty comrade.
                     </FormHelperText>
                   </FormControl>
 
