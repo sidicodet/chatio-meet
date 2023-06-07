@@ -41,7 +41,7 @@ export default function Notifications(): JSX.Element {
     if (userMediaError === "NotAllowedError") {
       setErrorModalTitle("Can't show your media");
       setErrorModalMessage(
-        "Please check your browser has media capture (webcam and microphone) permissions and try restarting your browser if you continue to have issues."
+        "Please check your browser has media capture (webcam and microphone) permissions and try restarting your browser if issue persist comrade!."
       );
       onErrorModalOpen();
     }
